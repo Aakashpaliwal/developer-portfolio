@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -56,8 +57,10 @@ export function Navbar() {
             </li>
           ))}
           <li>
+            {/* put your resume PDF in the public folder (e.g. public/resume.pdf) */}
             <a
-              href="mailto:aakashpaliwal95@gmail.com"
+              href="/developer-portfolio/resume.pdf"
+              download
               className="rounded border border-primary px-4 py-1.5 font-mono text-xs text-primary transition-all hover:bg-primary/10"
             >
               Resume
@@ -99,8 +102,10 @@ export function Navbar() {
                   </span>
                 </a>
               ))}
+              {/* mobile resume link */}
               <a
-                href="mailto:aakashpaliwal95@gmail.com"
+                href="/resume.pdf"
+                download
                 className="mt-2 rounded border border-primary px-6 py-2 font-mono text-sm text-primary transition-all hover:bg-primary/10"
               >
                 Resume

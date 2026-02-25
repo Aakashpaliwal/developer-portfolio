@@ -8,7 +8,7 @@ export function Footer() {
       {/* Side social links - visible on larger screens */}
       <div className="hidden lg:fixed lg:bottom-0 lg:left-10 lg:flex lg:flex-col lg:items-center lg:gap-6">
         <a
-          href="https://github.com"
+          href="https://github.com/Aakashpaliwal"
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted-foreground transition-all hover:-translate-y-0.5 hover:text-primary"
@@ -17,7 +17,7 @@ export function Footer() {
           <Github className="h-5 w-5" />
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/aakash-paliwal-205663a0/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted-foreground transition-all hover:-translate-y-0.5 hover:text-primary"
@@ -43,7 +43,7 @@ export function Footer() {
       {/* Bottom footer */}
       <div className="mx-auto max-w-4xl text-center">
         <a
-          href="https://github.com"
+          href="https://github.com/Aakashpaliwal"
           target="_blank"
           rel="noopener noreferrer"
           className="font-mono text-xs text-muted-foreground transition-colors hover:text-primary"
