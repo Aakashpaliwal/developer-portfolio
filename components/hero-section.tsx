@@ -44,7 +44,7 @@ export function HeroSection() {
           transition={{ delay: 0.3, duration: 0.5 }}
           className="mt-2 text-balance text-3xl font-bold leading-tight tracking-tight text-muted-foreground sm:text-4xl md:text-5xl lg:text-6xl"
         >
-          I build things for the web.
+          I architect high-performance frontend solutions.
         </motion.h2>
 
         <motion.p
@@ -56,15 +56,8 @@ export function HeroSection() {
           {"I'm a solution-driven "}
           <span className="text-foreground">Senior Software Engineer</span>
           {" with over "}
-          <span className="text-foreground">6+ years of experience</span>
-          {" developing consumer-focused websites and web applications using React, TypeScript, and JavaScript. Currently leading frontend development at "}
-          <a
-            href="#experience"
-            className="text-primary transition-colors hover:text-primary/80"
-          >
-            Webkorps
-          </a>
-          {" for enterprise clients like Red Bull and Mara."}
+          <span className="text-foreground">7+ years of experience</span>
+          {" developing consumer-focused websites and web applications using React, TypeScript, and JavaScript. Specializing in enterprise logistics and asset management platforms for enterprise clients like Red Bull and Mara. Currently open to"} <span className="text-foreground">remote Lead Frontend roles and freelance consulting engagements.</span>
         </motion.p>
 
         <motion.div
